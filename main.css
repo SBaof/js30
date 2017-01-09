@@ -68,9 +68,18 @@ a.item {
   margin-top: 80px; }
 
 footer {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
   background-color: #212121;
   height: 100px; }
+
+footer p {
+  margin: 0;
+  font-size: 12px;
+}
 
 @media (min-width: 970px) {
   .video-wrapper {
