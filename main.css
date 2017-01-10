@@ -25,7 +25,8 @@ a {
   margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  height: 100vh; }
+  height: 90vh;
+}
 
 a.item {
   width: 100%;
@@ -74,11 +75,23 @@ footer {
   flex-direction: column;
   color: #fff;
   background-color: #212121;
-  height: 100px; }
+  height: 120px;
+}
 
 footer p {
   margin: 0;
   font-size: 12px;
+}
+
+footer .foot-github {
+  position: absolute;
+  right: 260px;
+  font-size: 36px;
+}
+
+footer .foot-github i:hover {
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 @media (min-width: 970px) {
@@ -98,21 +111,37 @@ footer p {
 
 nav, .nav {
   background-color: #00bcd4;
-  height: 80px;
-  line-height: 80px; }
-  nav a, .nav a {
+  height: 120px;
+  text-align: center;
+}
+
+nav p, .nav p {
+    margin-top: 0;
     margin-left: 30px;
     padding: 10px;
-    font-size: 1.5em;
     text-decoration: none;
-    color: white; }
-    nav a:hover, .nav a:hover {
-      cursor: pointer; }
+    font-family: 'againtsregular';
+    color: #ffc600;
+    font-size: 6.5rem;
+    text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+}
+
+nav p:hover, .nav p:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@font-face {
+  font-family: 'againtsregular';
+  src: url("/fonts/againts-webfont.woff2") format('woff2'), url("/fonts/againts-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .search, .slogan {
   background-color: #00bcd4;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 55px;
   margin-bottom: 30px; }
 
