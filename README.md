@@ -2,7 +2,7 @@
 * javascript in 30 days
 * A Lesson from [Wes Bos](http://wesbos.com/): [30 Day Vanilla JS Challenge](https://JavaScript30.com)
 
-# FRY
+# FYI
 * [Nitish Dayal's Text Guides](https://github.com/nitishdayal/JavaScript30) are great for those who like reading over watching
 * [Meredith Underell's](http://blog.meredithunderell.com/tag/javascript30/) Quick Lessons Learned
 * [Rowan Weismiller's](http://rowanweismiller.com/blog/javascript-30/) Recaps + Lessons Learned
