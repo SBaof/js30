@@ -11,3 +11,4 @@
 * [Ayo Isaiah's](https://freshman.tech/archive/#javascript30) Recaps and Lessons Learned
 * [Adriana Rios](https://stpcollabr8nlstn.github.io/JavaScript30/) shares her alternative solutions
 
+
