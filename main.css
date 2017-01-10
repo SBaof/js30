@@ -26,6 +26,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   height: 90vh;
+  transition: all .5s ease;
 }
 
 a.item {
@@ -38,7 +39,12 @@ a.item {
   margin-top: 1em;
   background-color: #fff;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+a.item:hover {
+  transform: scale(1.1);
+}
 
 .item .left {
   display: table-cell;
@@ -87,6 +93,11 @@ footer .foot-github {
   position: absolute;
   right: 260px;
   font-size: 36px;
+  transition: all .5s ease;
+}
+
+footer .foot-github i{
+  transition: all .5s ease;
 }
 
 footer .foot-github i:hover {
@@ -124,6 +135,7 @@ nav p, .nav p {
     color: #ffc600;
     font-size: 6.5rem;
     text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+    transition: all .5s ease;
 }
 
 nav p:hover, .nav p:hover {
