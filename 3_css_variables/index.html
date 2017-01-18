@@ -72,6 +72,10 @@
         width: 100px;
     }
 
+    input:hover {
+      cursor: pointer;
+    }
+
     .result {
       display: block;
       font-size: 18px;
@@ -109,13 +113,11 @@
 
       const words = document.querySelector('h2');
       const wrappedWords = sparanWrap(words.innerText);
-      console.log(wrappedWords);
       words.innerHTML = wrappedWords;
 
       function sparanWrap(words) {
         const letters = [...words];
         const last2Letters = letters.splice(-2);
-        console.log('last: ', last2Letters);
         const wrapped = letters.map(letter => {
           if (letter == ' ') {
             return `<span style="width: 20px"> </span>`;
