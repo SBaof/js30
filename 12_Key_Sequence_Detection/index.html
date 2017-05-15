@@ -65,7 +65,12 @@
             ahead = true;
             step = 1;
           }
-          code.style.transform = `rotate(${deg}deg)`;
+          let s = deg > 0 ? deg : -deg;
+          if (s < 20) {
+            s = 20;
+          }
+          let scal = s / maxDeg;
+          code.style.transform = `rotate(${deg}deg) scale(${scal})`;
           deg += step;
         }, delay);
       }
